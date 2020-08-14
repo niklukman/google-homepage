@@ -1,2 +1,3 @@
 # google-homepage
-google homepage clone project for the odin project
+google homepage clone for the odin project
+Skill practiced: HTML, CSS and DevTools

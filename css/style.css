@@ -1,0 +1,153 @@
+@import url(normalize.css);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+li {
+  list-style: none;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+main {
+  margin: 150px auto;
+  width: 500px;
+}
+
+.nav-bar li {
+  padding: 10px;
+}
+
+.nav-bar li:last-child {
+  margin-right: 10px;
+}
+
+.nav-bar li a:link,
+.nav-bar li a:visited {
+  text-decoration: none;
+  color: rgb(82, 82, 82);
+}
+
+.nav-bar li a:hover {
+  color: #000;
+}
+
+.profile-pic {
+  border-radius: 50%;
+}
+
+.g-logo {
+  width: auto;
+  display: block;
+  margin: auto auto 20px auto;
+}
+
+.search-gsearch,
+.search-gsearch:hover {
+  width: 15px;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.search-gvoice {
+  width: 15px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+#search-bar {
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgb(223, 225, 229);
+  border-radius: 30px;
+  padding: 10px;
+  margin: auto auto 20px auto;
+}
+
+#search-bar:hover {
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
+#search-entry,
+#search-entry:focus {
+  width: 400px;
+  padding: 5px;
+  border: none;
+  outline: none;
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+.search-btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-btn button {
+  padding: 0 16px;
+  margin: 11px 4px;
+  background-image: linear-gradient(top, #f5f5f5, #f1f1f1);
+  border: 1px solid transparent;
+  border-radius: 4px;
+  line-height: 27px;
+  color: rgb(95, 99, 104);
+  height: 37px;
+}
+
+.search-btn button:hover {
+  border: 1px solid #c6c6c6;
+}
+
+.search-oth {
+  text-align: center;
+}
+
+footer {
+  background-color: rgb(242, 242, 242);
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  border-top: 1px solid rgb(228, 228, 228);
+  padding: 15px 20px;
+}
+
+footer aside {
+  border-top: 1px solid rgb(228, 228, 228);
+  display: flex;
+  justify-content: space-between;
+}
+
+footer aside ul {
+  display: flex;
+  padding: 15px;
+}
+
+footer aside ul li {
+  padding: 0px 10px;
+}
+
+footer aside ul li a:link,
+footer aside ul li a:visited {
+  text-decoration: none;
+  color: #000;
+}
